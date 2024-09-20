@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,tr,td,th{
+        border: 2px solid;
+
+    }
+</style>
+<body>
+    <script>
+       let table = document.createElement("table");   
+    //    table.innerText="Hemanth";
+       document.body.appendChild(table);
+
+       let tr1=document.createElement("tr");
+       table.appendChild(tr1);
+       let th1=document.createElement("th");
+       th1.innerText="Name";
+       tr1.appendChild(th1);
+       let th2=document.createElement("th");
+       th2.innerText="Branch";
+       tr1.appendChild(th2);
+       let tr2=document.createElement("tr");
+       table.appendChild(tr2);
+        let td1=document.createElement("td");
+        td1.innerText="Spandana";              
+        tr2.appendChild(td1);
+        let td2=document.createElement("td");
+        td2.innerText="B.Com";
+        tr2.appendChild(td2);
+       let tr3=document.createElement("tr");
+       let td3=document.createElement("td");
+        td3.innerText="Sahithya";
+        tr3.appendChild(td3);
+        let td4=document.createElement("td");
+        td4.innerText="B.Tech";
+        tr3.appendChild(td4);
+        table.appendChild(tr3)
+
+    </script>
+    
+</body>
+</html>

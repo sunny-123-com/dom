@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1  id="hello">hello</h1>
+<h1 id="hi">hi</h1>
+<h1 id="world">world</h1>
+<h1 id="hello world">hello world</h1>
+<h1 id="user">user</h1>
+<script>
+    let hello=docuument.getElementByid("hello");
+    let hi=docuument.getElementByid("hi");
+    let world=docuument.getElementByid("world");
+    let helloworld=docuument.getElementByid("helloworld");
+    let user=docuument.getElementByid("user");
+    console.log(hello,hi,world,helloworld,user)
+    hello.innerText="hellooo";
+    hi.innerText="hiiiiii";
+    world.innerText="worlddddd";
+    helloworld.innerText="hellworlddddd";
+    user.innerText="user";
+
+    console.log(hello.innerText);
+    // ..............
+    let h1 = document.createElement("h1")
+    h1.innerText = "HelloWorld!";
+    document.body.appendChild(h1);
+    // .......
+    
+</script>
+</body>
+</html>
